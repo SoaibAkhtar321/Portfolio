@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soaib Akhtar — Android Developer</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;1,9..40,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Canvas Background -->
+<canvas id="bgCanvas"></canvas>
+
+<!-- Nav -->
+<nav>
+  <a href="#hero" class="nav-logo">S<span>.</span>Akhtar</a>
+  <ul class="nav-links">
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero -->
+<section id="hero">
+  <div class="hero-tag">Android Developer</div>
+  <h1 class="hero-name glitch" data-text="SOAIB AKHTAR">
+    SOAIB
+    <span class="line2">AKHTAR</span>
+  </h1>
+  <p class="hero-desc">
+    Building scalable mobile apps with <strong style="color:var(--text)">Kotlin, Jetpack Compose &amp; MVVM</strong>.
+    Passionate about clean architecture and offline-first design.
+    <span id="typed"></span><span class="typed-cursor">|</span>
+  </p>
+  <div class="hero-cta">
+    <a href="#projects" class="btn btn-primary">View Projects</a>
+    <a href="#contact" class="btn btn-outline">Get in Touch</a>
+  </div>
+
+  <div class="floating-badge badge-1">⚡ Kotlin · MVVM</div>
+  <div class="floating-badge badge-2">🔥 Firebase · Hilt</div>
+  <div class="floating-badge badge-3">🎓 CGPA: 8.0</div>
+
+  <div class="hero-stats">
+    <div class="stat">
+      <div class="stat-num">2+</div>
+      <div class="stat-label">Projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">10W</div>
+      <div class="stat-label">Internship</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">4+</div>
+      <div class="stat-label">Certs</div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">Scroll to explore</div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="section-label reveal">Technical Arsenal</div>
+  <h2 class="section-title reveal">Skills &amp; Tools</h2>
+  <div class="skills-grid">
+    <div class="skill-card reveal">
+      <div class="skill-cat">Languages</div>
+      <h3>Programming Languages</h3>
+      <div class="skill-tags">
+        <span class="tag">Kotlin</span>
+        <span class="tag">Java</span>
+        <span class="tag highlight">SQL</span>
+        <span class="tag highlight">JSON</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Frameworks</div>
+      <h3>Android Frameworks</h3>
+      <div class="skill-tags">
+        <span class="tag">Jetpack Compose</span>
+        <span class="tag">MVVM</span>
+        <span class="tag">Clean Architecture</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Libraries</div>
+      <h3>Key Libraries</h3>
+      <div class="skill-tags">
+        <span class="tag">Firebase Auth</span>
+        <span class="tag">Firestore</span>
+        <span class="tag">Room DB</span>
+        <span class="tag">Hilt</span>
+        <span class="tag">Coroutines</span>
+        <span class="tag">Retrofit</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Tools &amp; Concepts</div>
+      <h3>Dev Tools</h3>
+      <div class="skill-tags">
+        <span class="tag">Android Studio</span>
+        <span class="tag">Git</span>
+        <span class="tag">VS Code</span>
+        <span class="tag">Android SDK</span>
+        <span class="tag">REST API</span>
+        <span class="tag">Agile</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Soft Skills</div>
+      <h3>Professional Skills</h3>
+      <div class="skill-tags">
+        <span class="tag">Problem Solving</span>
+        <span class="tag">Team Collaboration</span>
+        <span class="tag">Self Learning</span>
+      </div>
+    </div>
+    <div class="skill-card reveal">
+      <div class="skill-cat">Languages Spoken</div>
+      <h3>Communication</h3>
+      <div class="skill-tags">
+        <span class="tag">English</span>
+        <span class="tag">Hindi</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Projects -->
+<section id="projects">
+  <div class="section-label reveal">What I've Built</div>
+  <h2 class="section-title reveal">Projects</h2>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-type">Personal Project</div>
+      <h3>CampusBite</h3>
+      <div class="project-subtitle">Campus Food Pre-Order App</div>
+      <ul>
+        <li>Developed an Android app enabling <strong style="color:var(--text)">50+ students</strong> to pre-order food from multiple cafeteria stalls, reducing average wait time by <strong style="color:var(--accent3)">~30%</strong></li>
+        <li>Implemented <strong style="color:var(--text)">MVVM architecture</strong> with Jetpack Compose, Hilt for dependency injection, and Firebase Firestore for real-time order tracking</li>
+        <li>Integrated <strong style="color:var(--text)">Firebase Authentication</strong> for role-based access control (student vs staff), improving app security and UI/UX</li>
+      </ul>
+      <div class="project-tech">
+        <span class="tech-chip">Kotlin</span>
+        <span class="tech-chip">Jetpack Compose</span>
+        <span class="tech-chip">Firebase</span>
+        <span class="tech-chip">Hilt</span>
+        <span class="tech-chip">MVVM</span>
+      </div>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-type">Personal Project</div>
+      <h3>Notes App</h3>
+      <div class="project-subtitle">Offline-First Notes Manager</div>
+      <ul>
+        <li>Developed a notes management app following <strong style="color:var(--text)">Clean Architecture</strong> and MVVM, achieving full separation of concerns across data, domain, and UI layers</li>
+        <li>Implemented <strong style="color:var(--text)">Room DB</strong> for offline-first storage, Hilt for DI, and Coroutines for async operations, ensuring smooth UI/UX performance</li>
+      </ul>
+      <div class="project-tech">
+        <span class="tech-chip">Kotlin</span>
+        <span class="tech-chip">Room DB</span>
+        <span class="tech-chip">Hilt</span>
+        <span class="tech-chip">Coroutines</span>
+        <span class="tech-chip">Clean Arch</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Experience -->
+<section id="experience">
+  <div class="section-label reveal">Work History</div>
+  <h2 class="section-title reveal">Experience</h2>
+  <div class="exp-card reveal">
+    <div class="exp-header">
+      <h3>Android Developer Virtual Intern</h3>
+      <span class="exp-date">July – Sept 2025</span>
+    </div>
+    <div class="exp-org">EduSkills · Google for Developers · AICTE – National Internship Portal</div>
+    <p>
+      Completed a 10-week AICTE-EduSkills Virtual Internship supported by Google for Developers.
+      Built Android applications using Kotlin, Jetpack Compose, and MVVM architecture throughout the program.
+    </p>
+    <div class="exp-badge">
+      🏅 Awarded Grade E (Excellent)
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Education -->
+<section id="education">
+  <div class="section-label reveal">Academic Background</div>
+  <h2 class="section-title reveal">Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card reveal">
+      <div class="edu-year">2023 – 2027</div>
+      <h3>B.Tech — Computer Science &amp; Engineering</h3>
+      <div class="edu-inst">Galgotias University, Greater Noida</div>
+      <div class="edu-score">CGPA: 8.0</div>
+    </div>
+    <div class="edu-card reveal">
+      <div class="edu-year">Completed</div>
+      <h3>Senior Secondary — PCM (Class XII)</h3>
+      <div class="edu-inst">RPM Academy, Gorakhpur</div>
+      <div class="edu-score">82%</div>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <div style="margin-top:3rem;">
+    <div class="section-label reveal" style="margin-bottom:1.2rem;">Certifications</div>
+    <div class="cert-grid reveal">
+      <div class="cert-chip">Java — GUVI</div>
+      <div class="cert-chip">Python — GUVI</div>
+      <div class="cert-chip">Full Stack Development — GUVI</div>
+      <div class="cert-chip">SQL Database — ORACLE</div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- Contact -->
+<section id="contact">
+  <div class="section-label reveal">Let's Connect</div>
+  <h2 class="section-title reveal">Get In Touch</h2>
+  <p class="contact-desc reveal">
+    Open to Android development roles, internships, and exciting projects.
+    Let's build something great together.
+  </p>
+  <div class="contact-links reveal">
+    <a href="mailto:akhtarsoaib568@gmail.com" class="contact-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      akhtarsoaib568@gmail.com
+    </a>
+    <a href="https://github.com/SoaibAkhtar321" target="_blank" class="contact-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+      github.com/SoaibAkhtar321
+    </a>
+    <a href="tel:+918957833269" class="contact-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 0116.92 2h3a2 2 0 012 1.72 12.84 12.84 0 01.7 2.81 12 12 0 01-.7 4.67L20 12"/></svg>
+      +91 8957833269
+    </a>
+    <a href="https://www.linkedin.com/in/soaib-akhtar-060677266" target="_blank" class="contact-link">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      linkedin.com/in/soaib-akhtar
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>Designed &amp; built by Soaib Akhtar &nbsp;·&nbsp; <span style="color:var(--accent)">2026</span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
